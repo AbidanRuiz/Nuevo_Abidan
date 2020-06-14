@@ -1,0 +1,35 @@
+:root{
+
+    --primary: gray;
+    --light: white;
+    --grey: white;
+
+}
+
+body{
+
+    overflow: hidden;
+    font-family: "Muli",sans-serif;
+    font-weight: 300;
+    color:var(--primary);
+  
+
+}
+
+#sidebar-container{
+
+
+    min-height: 100vh;
+
+
+}
+#sidebar-container.logo{
+    padding: .875rem 1.25rem;
+
+
+}
+#sidebar-container.menu{
+
+
+    width: 18rem;
+}
